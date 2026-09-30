@@ -18,13 +18,14 @@ FinTrack is a basic Python CLI(Command Line Interface) app built to track daily 
 ## File Structure
 ```text
 FinTrack-Engine/
-├── main.py                # Main script and interactive CLI (Command Line Interface) menu
 ├── statement.md           # Problem statement and system requirements
 ├── README.md              # Project setup and overview
 ├── modules/
 │   ├── __init__.py        # Package initialization
+│   ├── main.py            # Main script and interactive CLI menu
 │   ├── budget.py          # Budget checking & status warnings
 │   ├── analytics.py       # Sum, average, max, and min math functions
-│   └── interest.py        # Compound interest power calculations
+│   └── interest.py        # Compound interest calculations
 └── tests/
-    └── test_finance.py    # Basic unit test cases
+    └── test_finance.py    # Unit tests (unittest module)
+
